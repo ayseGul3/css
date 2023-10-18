@@ -1,0 +1,108 @@
+.header {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 40px 50px 0;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+  }
+  
+  .headerli {
+    margin-right: 20px;
+    color: gray;
+  }
+
+  .headerli-space{
+    margin-right: 1400px;
+  }
+
+  .square{
+    width: 7px; 
+    height: 7px; 
+    background: gray; 
+  }
+
+  .square-array {
+    display: grid;
+    grid-template-columns: repeat(3, 7px); /* 3 sütun */
+    gap: 1px; /* Kareler arasındaki boşluk */
+    margin-top: -2px;
+}
+
+.button{
+   background-color: #007FFF;
+   text-align: center;
+   border-radius: 4px;
+   color: white;
+   padding: 6px 15px;
+   font-size: 16px;
+   margin-top: -5px;
+   border: none;
+}
+.picture{
+    width: 400px;
+    margin-top: 180px;
+    margin-left: 720px;
+}
+
+.search-input{
+
+    margin: 20px 30%;
+    padding:10px 280px;
+    border: 2px solid #d3d3d3;
+    border-radius: 25px; 
+
+}
+.right-picture{
+    position: absolute;
+    top: 18px;
+    right: 32%;
+    width: 30px; /* Resmin genişliğini ayarlayın */
+    height: auto; /* Yükseklik otomatik olarak ayarlanır */
+    margin-top: 5px; 
+}
+
+.left-picture{
+    position: absolute;
+    top: 22px;
+    left: 30.5%;
+    width: 23px; /* Resmin genişliğini ayarlayın */
+    height: auto; /* Yükseklik otomatik olarak ayarlanır */
+    margin-top: 5px; 
+}
+
+.input-container {
+    position: relative;
+  }
+
+.button-search{
+    background-color: #e9e9e9;
+    color: gray;
+    margin-right: 20px;
+    padding:7px 12px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+
+  }
+.button-container {
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .header-under {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    margin-top: 20%; 
+    background-color: #e9e9e9;
+    color: white;
+  }
+  .headerli-under {
+    margin-right: 30px;
+    color: #808080;
+  }

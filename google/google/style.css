@@ -1,0 +1,102 @@
+.bg{
+    background-color: white;
+}
+
+.resim{
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 720px;
+}
+
+.left-bar{
+    width: 200px;
+    float: left;
+}
+
+.container{
+    margin-top: 50px; 
+    width: 1000px;
+    display: flex;
+
+    /*margin-left: auto;
+   * margin-right: auto;*/
+ 
+}
+
+.container-1{
+   display: flex;
+   
+ 
+}
+.content{
+
+    float: center;
+
+}
+
+.card{
+    width: 1760px;
+    height: 20px;
+    float: center;
+    padding: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color:#cfcfcf;
+
+}
+
+.card-1{
+    width: 598px;
+    height: 110px;
+    float: left;
+    padding: 1%;
+    margin-right: 0.2%;
+    background-color: #7DF9FF;
+
+}
+    
+.text-blue{
+   
+    text-decoration: underline; /* Metni altı çizili yap */
+    color: blue; /* Metin rengini mavi yap */ 
+    text-align: center;
+    line-height: 0.2;
+}
+.text{
+    text-align: center;
+    line-height: 0.5;
+}
+h2{
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+.input-container {
+    display: flex; /* Flexbox kullanarak içeriği yatayda hizala */
+    align-items: center; /* Öğeleri dikeyde ortala */
+    justify-content: center;
+
+
+  }
+
+
+  .input{
+    padding: 5px;
+    width: 800px;
+
+  }
+  .input-1{
+    padding: 5px;
+    width: 300px;
+
+  }
+  .button{
+
+    color: black; /* Örnek: Yazı rengi */
+    float: left;
+
+  }
+
+  .tasi{
+    margin-top: -30px;
+  }
